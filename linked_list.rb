@@ -41,7 +41,7 @@ class LinkedList
       current_node = current_node.next
       count += 1
     end
-    return current_node
+    return current_node.next
   end
 
   def remove_nth_node(head, n)
@@ -61,4 +61,4 @@ list.append(4)
 list.append(5)
 
 list.remove_nth_node(0, 1)
-# binding.pry
+binding.pry
